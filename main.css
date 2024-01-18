@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     vertical-align: top;
+    font-family: 'Roboto', sans-serif;
 }
 
 body div{
@@ -10,7 +13,6 @@ body div{
     top: 0px;
     padding-left: 400px;
     padding-right: 400px;
-    font-family:Arial, Helvetica, sans-serif
 }
 
 header{
@@ -19,7 +21,7 @@ header{
 
 header p{
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     color: white;
     text-align: center;
 }
@@ -48,6 +50,7 @@ ul{
     padding: 5px;
     margin-top: 20px;
     margin-left: 0px;
+    border-radius: 5%;
 }
 
 li a{
@@ -58,10 +61,6 @@ li a{
     font-weight: 600;
     line-height: 1.2;
     margin: 5px;
-}
-
-li a:active{
-    color: white;
 }
 
 article{
@@ -76,27 +75,29 @@ article{
 article h1{
     color: rgb(255, 187, 0);
     text-align: left;
+    font-size: 30px;
+    font-weight: 700;
 
 }
 
 article p{
     width: 600px;
-    text-align: left;
     text-align: justify;
     text-align: left;
+    font-size: 20px;
 
 }
 
 aside{
     background-color: cornflowerblue;
     top: 0px;
-    height: 520px;
+    height: auto;
     color: white;
     margin-top: 20px;
-    margin-right: 0px;
     padding: 20px;
     max-width: 20%;
-    height: 400px;
+    height: 420px;
+    border-radius: 5%;
 }
 
 aside figure{
@@ -107,7 +108,7 @@ aside figure{
 }
 
 aside figcaption{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     text-align: center;
 }
@@ -115,6 +116,8 @@ aside figcaption{
 aside p{
     text-align: center;
     font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.4;
 }
 
 aside img{
@@ -126,15 +129,16 @@ aside img{
 footer{
     display: block;
     position: relative;
-    background-color: rgb(0, 65, 187);
+    background-color: cornflowerblue;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 small{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 100;
     color: white;
-    margin: auto;
     display: inline-block;
     vertical-align: top;
 }
@@ -158,6 +162,7 @@ small{
         margin: 0;
         text-align: center;
         padding: 0;
+        border-radius: 0;
     }
 
     li a{
@@ -201,6 +206,7 @@ small{
         height: auto;
         padding: 0;
         max-width: fit-content;
+        border-radius: 0;
     }
 
     aside figure{
