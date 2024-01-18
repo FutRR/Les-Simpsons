@@ -1,0 +1,74 @@
+body > div{
+    background-color: rgb(255, 187, 0);
+    position: absolute;
+    top: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color:cornflowerblue;
+}
+
+.header_title{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+#header.img{
+    position:relative;
+    width: 1600px;
+    height: 800px;
+}
+
+main{
+    background-color: white;
+    vertical-align: top;
+}
+
+ul{
+    background-color: cornflowerblue;
+    list-style-type: none;
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+li a{
+    text-decoration: underline;
+    color: white;
+    position: relative;
+}
+
+li a:active{
+    color: white;
+}
+
+article{
+    position: relative;
+    display: block;
+    
+}
+
+#article_title{
+    color: rgb(255, 187, 0);
+}
+
+
+aside{
+    background-color: cornflowerblue;
+    position: relative;
+    display: block;
+    left: 80%;
+    width: 300px;
+    height: 500px;
+}
+
+.aside_img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
