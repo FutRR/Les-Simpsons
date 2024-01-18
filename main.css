@@ -17,14 +17,14 @@ header{
     background-color:cornflowerblue;
 }
 
-.header_title{
+header p{
     font-size: 40px;
     font-weight: 800;
     color: white;
     text-align: center;
 }
 
-#header_img{
+header img{
     height: auto;
     width: 100%;
     z-index: auto;
@@ -73,13 +73,13 @@ article{
     width: auto;
 }
 
-#article_title{
+article h1{
     color: rgb(255, 187, 0);
     text-align: left;
 
 }
 
-#article_paragraphe{
+article p{
     width: 600px;
     text-align: left;
     text-align: justify;
@@ -106,18 +106,18 @@ aside figure{
     padding: 0px 5px 10px 5px;
 }
 
-#aside_title{
+aside figcaption{
     font-weight: 600;
     font-size: 20px;
     text-align: center;
 }
 
-#aside_paragraphe{
+aside p{
     text-align: center;
     font-size: 14px;
 }
 
-.aside_img{
+aside img{
     width: 200px;
     border-style: solid;
     border-color: white;
@@ -146,7 +146,7 @@ small{
         overflow: hidden;
     }
     
-    .header_title{
+    header p{
         font-size: 16px;
     }
 
@@ -185,11 +185,11 @@ small{
         margin: 10px 10px 10px 10px;
     }
 
-    #article_title{
+    article h1{
         text-align: center;
     }
 
-    #article_paragraphe{
+    article p{
         width: auto;
         text-align: center;
         margin: 5px;
@@ -210,18 +210,18 @@ small{
         padding-top: 10px;
     }
 
-    .aside_img{
+    aside img{
         width: 100%;
         float: left;
         margin-right: 5px;
         margin-bottom: 10px;
     }
 
-    #aside_title{
+    aside figcaption{
         display: inline-block;
     }
 
-    #aside_paragraphe{
+    aside p{
         display: block;
         text-align: left;
         margin-top: 10px;
